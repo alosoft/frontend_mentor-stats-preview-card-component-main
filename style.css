@@ -118,10 +118,10 @@ body {
     gap: 0.5rem;
 }
 
-@media screen and (max-width: 54rem) {
+@media screen and (max-width: 32rem) {
     body {
         padding-inline: 5%;
-        padding-block: 13%;
+        padding-block: 15%;
     }
 
     .container {
@@ -157,8 +157,16 @@ body {
         flex-direction: column;
     }
 
-    .container__left-body{
+    .container__left-body {
         letter-spacing: 0.1rem;
         line-height: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 54rem) {
+    body {
+        padding-inline: 5%;
+        padding-block: 5%;
     }
 }
