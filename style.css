@@ -169,4 +169,16 @@ body {
         padding-inline: 5%;
         padding-block: 5%;
     }
+    .container__left-body {
+        line-height: 1rem;
+    }
+
+    .container__left-title span,
+    .container__left-title {
+        font-size: 1.5rem;
+    }
+
+    .container__left-stats__item-header{
+        font-size: 1rem;
+    }
 }
